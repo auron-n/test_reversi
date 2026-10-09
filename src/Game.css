@@ -1,0 +1,26 @@
+.Game {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center; 
+  gap: 30px;
+  padding: 20px;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: column; 
+  gap: 16px; 
+  
+  background-color: #f8f9fa;
+  padding: 20px 24px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  min-width: 120px;
+}
+
+.score-item {
+  font-size: 1.2rem;
+  font-weight: bold;
+  white-space: nowrap;
+}

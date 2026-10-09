@@ -1,0 +1,44 @@
+.square {
+  background: green;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 34px;
+}
+
+.black {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.white {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.canWhite {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.canBlack {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
